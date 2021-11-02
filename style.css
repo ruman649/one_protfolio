@@ -45,7 +45,25 @@ a:hover{
     margin: 5%;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+    background-position: right;
 }
 .contentDiv{
     width: 50%;
 } 
+#expeChild{
+    display: flex;
+
+}
+.expe1{
+    padding: 2%;
+    margin: 5%;
+    border-left: 7px solid red;
+}
+
+
+
+#footer{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
