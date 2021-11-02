@@ -54,10 +54,17 @@ a:hover{
     display: flex;
 
 }
+#expe{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
 .expe1{
-    padding: 2%;
+    padding: 1%;
     margin: 5%;
-    border-left: 7px solid red;
+    border-left: 7px solid;
+    border-image:linear-gradient(red, green);
+    border-image-slice: 1;
+    box-shadow: 5px 6px 20px rgb(250, 70, 25);
 }
 
 
